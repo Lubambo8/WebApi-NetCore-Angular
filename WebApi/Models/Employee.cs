@@ -15,11 +15,6 @@ namespace WebApi.Models
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        //[BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-        //public string DepartmentID { get; set; }
-
-        //[ForeignKey(nameof(DepartmentID))]
-        //public Department Department { get; set; }
         public string DateOfJoining { get; set; }
         public string PhotoFileName { get; set; }
     }
